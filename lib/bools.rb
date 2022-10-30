@@ -4,7 +4,7 @@ def bools!
   puts
   puts [*list, '|', 'result'] * ' '
   puts ['--' * list.size, '-' * 6] * '+-'
-  (vars << 1).times do |i|
+  (1 << vars).times do |i|
     list = ("%0*b" % [vars, i]).split('')
     vals = list.map {|item| item == '1'}
     resu = !!test(*vals) ? '1' : '0'
