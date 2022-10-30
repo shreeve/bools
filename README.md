@@ -17,7 +17,7 @@ This small file:
 ```ruby
 require 'bools'
 
-def test(a, b, c, d)
+def test(a, b, c)
   a == c
 end
 ```
@@ -25,16 +25,16 @@ end
 Produces the following:
 
 ```
-a b c d | result
---------+-------
-0 0 0 0 | 1
-0 0 0 1 | 1
-0 0 1 0 | 0
-0 0 1 1 | 0
-0 1 0 0 | 1
-0 1 0 1 | 1
-0 1 1 0 | 0
-0 1 1 1 | 0
+a b c | result
+------+-------
+0 0 0 | 1
+0 0 1 | 1
+0 1 0 | 0
+0 1 1 | 0
+1 0 0 | 1
+1 0 1 | 1
+1 1 0 | 0
+1 1 1 | 0
 ```
 
 Notice that 4 booleans are checked, since there are 4 input variables.
