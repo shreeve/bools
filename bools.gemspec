@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |s|
   s.name        = "bools"
-  s.version     = "0.5.0"
+  s.version     = "0.5.1"
   s.author      = "Steve Shreeve"
   s.email       = "steve.shreeve@gmail.com"
   s.summary     = "Bools is a Ruby gem that makes it easy to evaluate boolean conditionals"
