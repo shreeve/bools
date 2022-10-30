@@ -37,7 +37,7 @@ a b c | result
 1 1 1 | 0
 ```
 
-Notice that 4 booleans are checked, since there are 4 input variables.
+Notice that 3 booleans are checked, since there are 3 input variables.
 
 ## Why?
 
