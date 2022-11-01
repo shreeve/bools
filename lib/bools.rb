@@ -16,3 +16,15 @@ def bools!
 end
 
 at_exit { bools! }
+
+__END__
+
+    # initial gray code bits
+    bits = 0
+
+      # iterate through gray codes
+      if gray
+        mods = i ^ (i + 1)
+        flip = mods ^ (mods >> 1)
+        bits = bits ^ flip
+      end
